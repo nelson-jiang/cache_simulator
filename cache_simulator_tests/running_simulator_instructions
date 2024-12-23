@@ -1,0 +1,22 @@
+How to run the simulator
+
+
+1. Download all test cases files along with sim.py
+
+2. Open Terminal
+
+3. Locate the folder where you saved the test case files and sim.py using Linux commands (e.g. cd)
+
+4. Mark project file executable by typing 
+
+                      chmod u+x simcache.py 
+ 
+    into Terminal
+
+5 To run the simulator along with test cases, type
+
+                ./simcache.py test_file_name.bin --cache •,•,•
+
+   into Terminal where test_file_name is the name of the file you wish to test (eg. array-sum) and • are cache configurations
+
+   NOTE: The test_file_name and cache configuration are already displayed in the .s file underneath "EXECUTION OUTPUT" so a simple copy-and-paste will suffice
